@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>The object stores twitter application settings such as consumerKey and etc. for authorizing and getting connect with twitter account.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AccessTokenSecret__c</fullName>
+        <description>Access Token Secret is required value for generating signature for each request.</description>
+        <externalId>false</externalId>
+        <label>Access Token Secret</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AccessToken__c</fullName>
+        <description>Access Token is required value for requests to Twitter application.</description>
+        <externalId>false</externalId>
+        <label>Access Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AuthorizationToken__c</fullName>
+        <description>Authorization Token is needed to authorize a user to Twitter application. This is temporary value during authorization process.</description>
+        <externalId>false</externalId>
+        <label>Authorization Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CallbackURL__c</fullName>
+        <description>Callback url is required value for authorizing a user to Twitter application.</description>
+        <externalId>false</externalId>
+        <label>Callback URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>ConsumerKey__c</fullName>
+        <description>Consumer Key field is connected to Consumer Key of Twitter application.</description>
+        <externalId>false</externalId>
+        <label>Consumer Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ConsumerSecret__c</fullName>
+        <description>Consumer Secret is connected to Consumer Secret value of Twitter application.</description>
+        <externalId>false</externalId>
+        <label>Consumer Secret</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Twitter Settings</label>
+    <visibility>Protected</visibility>
+</CustomObject>
